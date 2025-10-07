@@ -61,7 +61,7 @@ const LoginPage = () => {
               value={fullName}
               type="text"
               className="p-2 border border-gray-500 rounded-md focus:outline-none"
-              placeholder="full name"
+              placeholder="Full Name"
               required
             />
 
@@ -69,7 +69,7 @@ const LoginPage = () => {
               onChange={(e) => setEmail(e.target.value)}
               value={email}
               type="email"
-              placeholder="email address"
+              placeholder="Email Address"
               required
               className="p-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
@@ -78,7 +78,7 @@ const LoginPage = () => {
               onChange={(e) => setPassword(e.target.value)}
               value={password}
               type="password"
-              placeholder="password"
+              placeholder="Password"
               required
               className="p-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
@@ -110,7 +110,7 @@ const LoginPage = () => {
               value={bio}
               rows={4}
               className="p-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              placeholder="provide short bio"
+              placeholder="Please Provide Bio"
               required
             ></textarea>
 
@@ -140,7 +140,7 @@ const LoginPage = () => {
               onChange={(e) => setEmail(e.target.value)}
               value={email}
               type="email"
-              placeholder="email address"
+              placeholder="Email Address"
               required
               className="p-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
@@ -149,7 +149,7 @@ const LoginPage = () => {
               onChange={(e) => setPassword(e.target.value)}
               value={password}
               type="password"
-              placeholder="password"
+              placeholder="Password"
               required
               className="p-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
